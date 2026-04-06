@@ -8,6 +8,8 @@ Team Members:
 ## Project Objective
 The goal of this project is to develop a vision-based system that enables an autonomous robot car to read text on physical signs and execute corresponding commands. Building on in-class assignments involving camera-based object detection, this project will use optical character recognition (OCR) to detect and interpret a "STOP" sign, causing the robot to halt its movement upon recognition. This extends the existing coursework by shifting from pre-programmed visual cues (such as line tracking) to real-time text interpretation and decision-making.
 
+** Think about how to "build a city" and what would be needed
+
 ## Contributions
 While the class assignments cover foundational concepts like line tracking and object detection, none involve reading and interpreting text from the environment to drive robot behavior. This project bridges computer vision and autonomous decision-making by introducing OCR as an input method for robot control. The approach demonstrates a practical, real-world application — reading and obeying signage — that could be extended to more complex command sets in future work.
 
