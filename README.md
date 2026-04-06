@@ -19,6 +19,7 @@ While the class assignments cover foundational concepts like line tracking and o
 - Reference OpenCV and Tesseract documentation, as well as in-class lecture materials and assignments on camera-based detection.
 
 ## Milestones/Schedule Checklist
+- [ ] See what is already available for sign detection
 - [x] Complete this proposal document. *Due March 31*
 - [ ] Review and document existing class assignment code for camera detection and motor control. *TC, April 4*
 - [ ] Set up OpenCV pipeline for image preprocessing (grayscale, thresholding, ROI extraction). *TC, April 9*
