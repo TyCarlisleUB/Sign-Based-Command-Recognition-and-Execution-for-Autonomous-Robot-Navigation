@@ -8,6 +8,8 @@ Team Members:
 ## Project Objective
 The goal of this project is to develop a vision-based system that enables an autonomous robot car to read text on physical signs and execute corresponding commands. Building on in-class assignments involving camera-based object detection, this project will use optical character recognition (OCR) to detect and interpret a "STOP" sign, causing the robot to halt its movement upon recognition. This extends the existing coursework by shifting from pre-programmed visual cues (such as line tracking) to real-time text interpretation and decision-making.
 
+Create a Read me for Dr.Dell's Computer
+
 ** Think about how to "build a city" and what would be needed - Check out duckie town - The Bullavard
 
 ## Contributions
