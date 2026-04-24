@@ -23,13 +23,13 @@ While the class assignments cover foundational concepts like line tracking and o
 - Reference OpenCV and Tesseract documentation, as well as in-class lecture materials and assignments on camera-based detection.
 
 ## Milestones/Schedule Checklist
-- [ ] See what is already available for sign detection
+- [x] See what is already available for sign detection
 - [x] Complete this proposal document. *Due March 31*
-- [ ] Review and document existing class assignment code for camera detection and motor control. *TC, April 4*
-- [ ] Set up OpenCV pipeline for image preprocessing (grayscale, thresholding, ROI extraction). *TC, April 9*
+- [x] Review and document existing class assignment code for camera detection and motor control. *TC, April 4*
+- [x] Set up OpenCV pipeline for image preprocessing (grayscale, thresholding, ROI extraction). *TC, April 9*
 - [ ] Integrate Tesseract OCR and test text recognition on static sign images. *TC, April 14*
-- [ ] Combine OCR output with robot control logic (detect "STOP" → halt motors). *TC, April 18*
-- [ ] Create progress report. *Due April 21*
+- [x] Combine OCR output with robot control logic (detect "STOP" → halt motors). *TC, April 18*
+- [x] Create progress report. *Due April 21*
 - [ ] Test full pipeline on the physical robot with a printed STOP sign. *TC, April 25*
 - [ ] Tune for reliability (distance, angle, lighting variations). *TC, May 1*
 - [ ] Create final presentation. *Due May 5*
@@ -43,3 +43,7 @@ While the class assignments cover foundational concepts like line tracking and o
 - [ ] Robot halts movement within a reasonable distance after recognizing the sign.
 - [ ] OCR pipeline works reliably under normal lighting conditions.
 - [ ] System is documented clearly enough that a classmate could replicate the setup using the README.
+
+## Status Update — April 24, 2026
+
+I've completed all core development milestones ahead of schedule. After reviewing the existing UB Racer framework, I built a STOP sign detection pipeline using OpenCV — it masks red regions in each camera frame, then checks for an octagonal shape using contour approximation. When a red octagon is confirmed, the robot halts immediately and stays stopped. I ended up ditching Tesseract OCR in favor of pure OpenCV shape detection, which requires no external dependencies and runs faster. Next up is testing on the physical robot with a printed STOP sign on April 25.
