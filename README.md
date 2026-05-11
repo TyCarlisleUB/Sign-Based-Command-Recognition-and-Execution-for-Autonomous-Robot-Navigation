@@ -24,7 +24,7 @@ After either event, a 5-second cooldown prevents the same sign from triggering a
 
 > **📹 YouTube Demo:** 
 > 
-> `(https://youtu.be/E39QX8WRWbU)`
+> [https://youtu.be/E39QX8WRWbU](https://youtu.be/E39QX8WRWbU)
 
 ### STOP Sign Detection
 <img width="1341" height="532" alt="image" src="https://github.com/user-attachments/assets/4214e14c-3ec4-4bcb-81f5-d8a470d5d4de" />
@@ -168,8 +168,7 @@ SCANNING → (YIELD detected) → YIELDING (3s, 75% throttle) → COOLDOWN (5s) 
 - [x] Create progress report — *Due April 21*
 - [x] Test full pipeline in dev mode with printed signs — *TC, April 25*
 - [x] Add yield sign detection and 3-state machine — *TC, May 1*
-- [ ] Create final presentation — *Due May 5*
-- [ ] Refine system based on presentation feedback — *TC, May 10*
+- [x] Create final presentation — *Due May 5*
 - [x] Provide system documentation (this README) — *Due May 15*
 
 ---
