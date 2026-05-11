@@ -27,10 +27,10 @@ After either event, a 5-second cooldown prevents the same sign from triggering a
 > `(https://youtu.be/E39QX8WRWbU)`
 
 ### STOP Sign Detection
-![STOP sign detection frame](<img width="1341" height="532" alt="image" src="https://github.com/user-attachments/assets/4214e14c-3ec4-4bcb-81f5-d8a470d5d4de" />)
+<img width="1341" height="532" alt="image" src="https://github.com/user-attachments/assets/4214e14c-3ec4-4bcb-81f5-d8a470d5d4de" />
 
 ### YIELD Sign Detection
-![YIELD sign detection frame](<img width="1337" height="541" alt="image" src="https://github.com/user-attachments/assets/1f951287-02c2-4a4a-9323-96ecafe40d53" />)
+<img width="1337" height="541" alt="image" src="https://github.com/user-attachments/assets/1f951287-02c2-4a4a-9323-96ecafe40d53" />
 
 ### What the video shows
 The demo video shows the full pipeline running in dev mode against a laptop webcam. A printed STOP sign is held up, the robot immediately halts (simulated via `drive(0,0)` commands logged to the browser), and the 3-second countdown banner is visible on the camera feed. A printed YIELD sign is then shown — the robot slows, the cooldown kicks in, and scanning resumes automatically. The live browser UI (client notices, session panel, e-stop) is visible throughout.
