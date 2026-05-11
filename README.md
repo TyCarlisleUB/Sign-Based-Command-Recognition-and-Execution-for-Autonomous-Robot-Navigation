@@ -22,16 +22,16 @@ After either event, a 5-second cooldown prevents the same sign from triggering a
 
 ## Demonstration
 
-> **📹 YouTube Demo:** *(link coming — video will be uploaded before May 14)*
+> **📹 YouTube Demo:** 
 > 
-> `https://www.youtube.com/watch?v=PLACEHOLDER`
+> `(https://youtu.be/E39QX8WRWbU)`
 
 ### STOP Sign Detection
-![STOP sign detection frame](images/stop_detection.png)
+![STOP sign detection frame](<img width="1341" height="532" alt="image" src="https://github.com/user-attachments/assets/4214e14c-3ec4-4bcb-81f5-d8a470d5d4de" />)
 *YOLOv8 draws a red bounding box and confidence label (e.g. "STOP 91%") on the detected sign. A red banner reads "STOP DETECTED — HALTED (resuming in 2.7s)".*
 
 ### YIELD Sign Detection
-![YIELD sign detection frame](images/yield_detection.png)
+![YIELD sign detection frame](<img width="1337" height="541" alt="image" src="https://github.com/user-attachments/assets/1f951287-02c2-4a4a-9323-96ecafe40d53" />)
 *OpenCV triangle detector draws an orange bounding box labeled "YIELD". A teal-orange banner reads "YIELD DETECTED — SLOWING 25% (2.4s)".*
 
 ### What the video shows
